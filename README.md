@@ -10,6 +10,8 @@ ngIf warning in console on dev
 ## improvements
 create the solutions array dynamicaly
 
+create uniqueNumbersService to reuse callNumberMethod huristically
+
 
 ## Development server
 
