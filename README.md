@@ -1,7 +1,7 @@
 # Bingo
 
 ## KNOWN ISSUES
-duplicate numbers in cards
+duplicate numbers in cards - fixed!
 
 move services methods to their correct name services
 
