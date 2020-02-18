@@ -1,0 +1,20 @@
+<p>card works!</p>
+<div id="content">
+    <div *ngIf="winner">Winner Winner chicken dinner! {{cardId}}</div>
+    <table id="bingotable">
+        <tr>
+            <th class="orange">B</th>
+            <th class="orange">I</th>
+            <th class="orange">N</th>
+            <th class="orange">G</th>
+            <th class="orange">O</th>
+        </tr>
+
+        <tr *ngFor="let tenta of tentaContainer.ids">
+            <td *ngFor="let tentItem of objectKeys(tenta); let i = index"
+                [ngClass]="{'checked': isCalled(tenta[tentItem], tentItem), 'square': true}">
+                {{tenta[tentItem]}}
+            </td>
+        </tr>
+    </table>
+</div>

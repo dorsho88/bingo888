@@ -1,5 +1,12 @@
 # Bingo
 
+## KNOWN ISSUES
+duplicate numbers in cards
+
+move services methods to their correct name services
+
+ngIf warning in console on dev
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.3.24.
 
 ## Development server
